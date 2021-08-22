@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Physics</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+<style>
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+  border: 2px solid black;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+</style>
+<script>
+  function changeContent(typeOfContent){
+       
+       document.getElementById("forceContent").innerHTML = document.getElementById(typeOfContent).innerHTML
+       return false;
+  }
+
+  function toggle(elementId) {
+    var ele = document.getElementById(elementId);
+    if(ele.style.display == "block") {
+            ele.style.display = "none";
+    }
+    else {
+        ele.style.display = "block";
+    }
+} 
+</script>
+  <!-- =======================================================
+  * Template Name: Mentor - v4.3.0
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto">Physics </h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          
+          </ul>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs" data-aos="fade-in">
+      <div class="container">
+        <h2>Force</h2>
+        <p><h3>A force is a push or pull upon an object resulting from the object's interaction with another object. Whenever there is an interaction between two objects, there is a force upon each of the objects. When the interaction ceases, the two objects no longer experience the force. Forces only exist as a result of an interaction.</h3></p>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div id="forceContent" class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <div>
+              <h2>Applied Force</h2>
+              <p>An applied force is a force that is applied to an object by a person or another object. 
+              If a person is pushing a desk across the room, then there is an applied force acting upon the object.
+               ... On occasions, a normal force is exerted horizontally between two objects that are in contact with each other.</p>
+            </div>
+            <div>
+              <h3>Illustrations</h3>
+              <hr>
+              <div class="row">
+                <div class="column">
+                   <img src="https://www.sciencefacts.net/wp-content/uploads/2020/12/Applied-Force.jpg" alt="Applied Force" width=300>
+                </div>
+                <div class="column">
+                   <img src="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2018/01/29105103/13580916224_b3028f5fc9_b-300x173.jpg" width="300"  alt="Applied Force 2">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h2>Contact Force</h2>
+            <p class="fst-italic">
+              The forces in which two interacting bodies are in physical contact with each other are called contact force.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <a href="javascript:void(0);" onclick="changeContent('AppliedForce')">Applied Force.</a></li>
+              <li><i class="bi bi-check-circle"></i> <a href="javascript:void(0);" onclick="changeContent('NormalForce')">Normal Force.</a></li>
+              <li><i class="bi bi-check-circle"></i> <a href="javascript:void(0);" onclick="changeContent('TensionalForce')"> Tensional Force.</a></li>  
+              <li><i class="bi bi-check-circle"></i> <a href="javascript:void(0);" onclick="changeContent('MuscularForce')"> Muscular Force.</a></li>
+              <li><i class="bi bi-check-circle"></i> <a href="javascript:void(0);" onclick="changeContent('CollisionForce')">Collision Force</a></li>
+              <li><i class="bi bi-check-circle"></i> <a href="javascript:void(0);" onclick="changeContent('FrictionalForce')">Frictional Force</a></li>
+              <li><i class="bi bi-check-circle"></i> <a href="javascript:void(0);" onclick="changeContent('MechanicalForce')">Mechanical Force</a></li>
+            </ul>
+            <h2>Non Contact Force</h2>
+            <p class="fst-italic">
+              The forces which do not require a physical contact between the two interacting bodies act at a distance are called non contact forces.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <a href="javascript:void(0);" onclick="changeContent('MagneticForce')"> Magnetic Force.</a></li>
+              <li><i class="bi bi-check-circle"></i> <a href="javascript:void(0);" onclick="changeContent('ElectrostaticForce')">Electrostatic Force</a></li>
+              <li><i class="bi bi-check-circle"></i> <a href="javascript:void(0);" onclick="changeContent('GravitationalForce')">Gravitational Force.</a></li>
+              
+            </ul>
+           
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+    
+
+    <div id="AppliedForce" style="display: none;">
+      <div>
+        <h2>Applied Force</h2>
+        <p>An applied force is a force that is applied to an object by a person or another object. 
+          If a person is pushing a desk across the room, then there is an applied force acting upon the object.
+           ... On occasions, a normal force is exerted horizontally between two objects that are in contact with each other.
+      </p>
+      </div>
+      <div>
+        <h3>Illustrations</h3>
+        <hr>
+        <div class="row">
+          <div class="column">
+             <img src="https://www.sciencefacts.net/wp-content/uploads/2020/12/Applied-Force.jpg"  alt="Applied Force" width=300>
+          </div>
+          <div class="column">
+             <img src="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2018/01/29105103/13580916224_b3028f5fc9_b-300x173.jpg" width="300"  alt="Applied Force 2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="NormalForce" style="display: none;">
+    <div>
+      <h2>Normal Force</h2>
+      <p>Normal Force is the support force exerted on a body that is in contact with another stable body. For example if a book is kept 
+        on a table then the table exerts an upward force on the book to support its weight.
+    </p>
+    </div>
+    <div>
+      <h3>Illustrations</h3>
+      <hr>
+      <div class="row">
+        <div class="column">
+           <img src="https://www.sciencefacts.net/wp-content/uploads/2020/11/Normal-Force-Example.jpg"  alt="Normal Force" width=300>
+        </div>
+        <div class="column">
+           <img src="https://www.sciencefacts.net/wp-content/uploads/2020/11/Normal-Force.jpg" width="300"  alt="Normal Force 2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="TensionalForce" style="display: none;">
+    <div>
+      <h2>Tensional Force</h2>
+      <p>In physics, tension is described as the pulling force transmitted axially by the means of a
+        string, a cable, chain, or similar object, or by each end of a rod, truss member, or 
+        similar three-dimensional object; tension might also be described as the action-reaction pair of forces acting at each end of said elements.
+    </p>
+    </div>
+    <div>
+      <h3>Illustrations</h3>
+      <hr>
+      <div class="row">
+        <div class="column">
+           <img src="https://media.nagwa.com/654130548579/en/thumbnail_l.jpeg"  alt="Tensional Force" width=300>
+        </div>
+        <div class="column">
+           <img src="https://media.gosciencegirls.com/wp-content/uploads/2021/05/Tension-Force.jpg" width="300"  alt="Tensional Force 2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="MuscularForce" style="display: none;">
+    <div>
+      <h2>Muscular Force</h2>
+      <p>It is a force that results because of the action of muscles and is a contact force since there is contact between
+        the surfaces. ... Muscular force is required whenever the movement of the body occurs. Strolling, lifting, getting
+        up from a seat, crossing a leg, and so on all require muscular force.
+    </p>
+    </div>
+    <div>
+      <h3>Illustrations</h3>
+      <hr>
+      <div class="row">
+        <div class="column">
+           <img src="https://i.ytimg.com/vi/asQajPpiEWs/maxresdefault.jpg"  alt="Muscular Force" width=300 height="400">
+        </div>
+        <div class="column">
+           <img src="https://courses.fortlewis.edu/courses/17334/files/1762247/preview?verifier=CzA1QXDWZkrGDZJfLeLZtDA75GQxFWZxT90v4OzZ" width="300"  alt="Muscular Force 2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="CollisionForce" style="display: none;">
+    <div>
+      <h2>Collision Force</h2>
+      <p>The contact force which comes into play when two bodies collide with each other is called Colllision Force. For example,when two cars collide,they exert
+        force on each other. This force is collision force.
+    </p>
+    </div>
+    <div>
+      <h3>Illustrations</h3>
+      <hr>
+      <div class="row">
+        <div class="column">
+           <img src="https://www.bid4u.com.au/userfiles/images/Services/Forensic%20Vehicle%20Examinations/Inertia%20Collision%20Energy.jpg"  alt="Collision Force" width=300 height="400">
+        </div>
+        <div class="column">
+           <img src="https://img.brainkart.com/extra2/loILJN8.png" width="300"  alt="Collision Force 2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div id="FrictionalForce" style="display: none;">
+    <div>
+      <h2>Frictional Force</h2>
+      <p>The force that opposes the relative motion of two bodies is called friction. It slows down things by acting in the direction opposite 
+        to the motion of the moving body. Friction is a contact force as it arises due to contact between the surfaces.
+    </p>
+    </div>
+    <div>
+      <h3>Illustrations</h3>
+      <hr>
+      <div class="row">
+        <div class="column">
+           <img src="https://www.teachpe.com/wp-content/uploads/2019/07/friction620.jpg"  alt="Frictional Force" width=300 height="400">
+        </div>
+        <div class="column">
+           <img src="https://image.shutterstock.com/image-vector/physics-frictional-force-kinetic-friction-260nw-1993277495.jpg" width="300" height="400"  alt="Frictional Force 2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="MechanicalForce" style="display: none;">
+    <div>
+      <h2>Mechanical Force</h2>
+      <p>A mechanical force can be defined as a force that features some direct contact between two objects
+        (one applying the force and another which is in a state of rest or in a state of motion) and results
+         in the production of a change in the state of the object (state of rest or state of motion).
+    </p>
+    </div>
+    <div>
+      <h3>Illustrations</h3>
+      <hr>
+      <div class="row">
+        <div class="column">
+           <img src="https://media.nationalgeographic.org/assets/photos/818/719/3d97f911-594f-4257-880c-d9aa1c6da22d.jpg"  alt="Mechanical Force" width=300 height="400">
+        </div>
+        <div class="column">
+           <img src="http://www.physicsclassroom.com/Class/energy/u5l1d3.gif" width="300"  alt="Mechanical Force 2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="MagneticForce" style="display: none;">
+    <div>
+      <h2>Magnetic Force</h2>
+      <p>>Magnetic force is a consequence of electromagnetic force and is caused due to the motion of charges. 
+        We have learned that moving charges surround itself with a magnetic field. With this context,
+         the magnetic force can be described as a force that arises due to interacting magnetic fields.
+    </p>
+    </div>
+    <div>
+      <h3>Illustrations</h3>
+      <hr>
+      <div class="row">
+        <div class="column">
+           <img src="https://us.123rf.com/450wm/belchonock/belchonock1902/belchonock190207210/116639268-magnet-attracting-paper-clips-on-grey-background.jpg?ver=6"  alt="Magnetic Force" width=300 height="400">
+        </div>
+        <div class="column">
+           <img src="https://img.brainkart.com/extra3/d4uZpgN.jpg" width="300"  alt="Magnetic Force 2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="ElectrostaticForce" style="display: none;">
+    <div>
+      <h2>ElectroStatic Force</h2>
+      <p>>Electrostatic forces are non-contact forces; they pull or push on objects without touching them.
+        Rubbing some materials together can result in something called 'charge' being moved from one surface to the other.
+         Charged objects pull on other uncharged objects and may either push or pull on other charged objects.
+    </p>
+    </div>
+    <div>
+      <h3>Illustrations</h3>
+      <hr>
+      <div class="row">
+        <div class="column">
+           <img src="https://www.sciencefacts.net/wp-content/uploads/2020/11/Electrostatic-Force-Examples.jpg"  alt="Magnetic Force" width=300 height="400">
+        </div>
+        <div class="column">
+           <img src="https://www.sciencefacts.net/wp-content/uploads/2020/11/Electrostatic-Force.jpg" width="300"  alt="Magnetic Force 2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="GravitationalForce" style="display: none;">
+    <div>
+      <h2>Gravitational Force</h2>
+      <p>Gravity, or gravitation, is a natural phenomenon by which all things with mass or energy—including planets, stars, galaxies, 
+        and even light—are attracted to one another. On Earth, gravity gives weight to physical objects, and the Moon's gravity causes the tides of the oceans.
+    </p>
+    </div>
+    <div>
+      <h3>Illustrations</h3>
+      <hr>
+      <div class="row">
+        <div class="column">
+           <img src="https://i.pinimg.com/originals/9e/9d/ca/9e9dca648dc7a855f44cd7270166c292.gif"  alt="Magnetic Force" width=300 height="400">
+        </div>
+        <div class="column">
+           <img src="https://concept-stories.s3.ap-south-1.amazonaws.com/test/Stories%20-%20Images_story_15479/image_2019-10-03%2006%3A22%3A55.030663%2B00%3A00" width="300"  height="400" alt="Magnetic Force 2">
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+        
+   
+    <!-- ======= Counts Section ======= -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          
+          
+          
+
+        
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+    
+     
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
